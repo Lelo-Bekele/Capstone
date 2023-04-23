@@ -18,8 +18,18 @@
 ## Notes
 • You can edit /Sources/connect.php to use a password, if your SQL istance has a password. You can also edit to use a non-root account. 
   You can do this by changing the following code:
-  > $username	= 'root';
-  > $password	= '';
-  to
-  > $username	= '*desired username*';
-  > $password	= '*desired password*';
+> $username	= 'root';
+> $password	= '';
+  to this format.
+> $username	= '*desired username*';
+> $password	= '*desired password*';
+
+• More notes go here
+
+## FAQ
+1. **Q.** Can I use a different database engine?
+   **A.** Yes. You will need to edit '/Sources/connect.php' and the SQL queries in '/www/read.php', '/www/create.php', '/www/create_borrower.php',
+   '/www/search.php and 'database.sql' to match the specific syntax of your browser.
+
+## Licence
+This product is licensed under the Gnu GPL V3.
