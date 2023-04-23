@@ -1,0 +1,3 @@
+Every aspect of this webapp has been manually tested on a live web server and the code verified. There are known display issues on small screens and small browser windows.
+
+The codebase of this webapp is small enough to not require automated testing. Each PHP unit was tested as it was being created, and PDO->Prepare is in place to eliminate RCE issues.
