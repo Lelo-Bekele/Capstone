@@ -19,9 +19,12 @@
 • You can edit /Sources/connect.php to use a password, if your SQL istance has a password. You can also edit to use a non-root account. 
   You can do this by changing the following code:
 > $username	= 'root';
+
 > $password	= '';
+
   to this format.
 > $username	= '*desired username*';
+
 > $password	= '*desired password*';
 
 • More notes go here
