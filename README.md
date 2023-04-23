@@ -1,5 +1,5 @@
-# Tile Goes Here
-*Put your description here*
+# Chemventory
+*A front end for a chemistry inventory database.*
 
 ## Table of Contents
 1. Installation
